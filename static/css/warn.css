@@ -1,0 +1,37 @@
+body{ 
+   background-image: url(/static/img/jaune.jpg) ;
+   background-repeat : no-repeat;
+   
+}
+.warning {
+	width:100%;
+	min-height:75vh;
+	background: no-repeat fixed url(https://i.imgur.com/Ft4pxAa.jpg) center / cover; 
+	margin-top:50px;
+	
+	display: block;
+    justify-content: center;
+    align-items: center;
+}
+.warning h1 {
+	color:red;
+	font-family: 'Museo Sans', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 15vmin;
+	text-align: center;
+	font-size: 15vmin; 
+	/*line-height: 250%;*/ 
+	text-shadow: 0.05em 0.05em 0.1em #000;
+	text-shadow: 0 0.025em 0.05em rgba(0,0,0,0.75), 0 0.05em 0.1em rgba(0,0,0,0.5);
+}
+.warning h3 {
+	color: #fff;
+	font-family: 'Museo Sans', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 700px;
+	font-size: 15vmin;
+	text-align: center;
+	font-size: 8vmin; 
+	line-height: 150%;
+	text-shadow: 0.05em 0.05em 0.1em #000;
+	text-shadow: 0 0.025em 0.05em rgba(0,0,0,0.75), 0 0.05em 0.1em rgba(0,0,0,0.5);
+}

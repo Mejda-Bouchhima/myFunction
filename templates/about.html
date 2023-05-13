@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warning_page</title>
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/warn.css') }}">
+    <link href="/static/img/f3.png" rel="icon">
+</head>
+<body>
+    <section class="warning">
+        <h1>Attention!</h1>
+        <center>
+            {%if subject %}
+            <h3>Le nombre de point saisie "{{subject}}" n'est pas compatible </h3>
+            {% endif %}
+        </center>
+        <br/>
+        
+        <br/>
+        <center>
+            {%if warning %}
+            <h3>La saisie de votre fonction est fausse : {{warning}} </h3>
+            {% endif %}
+        </center>
+
+        <br/>
+        <center>
+            {%if cons %}
+            <h3> {{cons}} </h3>
+            <h3> {{univar}} </h3>
+            <h3> 
+            <a href="/fonc"> {{predef}} </a>
+            </h3>
+            <h3> {{cnx}} </h3>
+            {% endif %}
+        </center>
+   
+   
+   
+        </section>
+
+
+</body>
+</html>
